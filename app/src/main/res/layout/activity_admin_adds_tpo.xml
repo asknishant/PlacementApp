@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddsTpo">
+
+    <TextView
+        android:id="@+id/textAddTpo"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="176dp"
+        android:text="Add TPO"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addTpoName"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="102dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addTpoId"
+        android:layout_width="376dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="256dp"
+        android:ems="10"
+        android:hint="Enter Id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addTpoPassword"
+        android:layout_width="364dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="336dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddTPO"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="451dp"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

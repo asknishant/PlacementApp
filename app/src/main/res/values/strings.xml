@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Placement App</string>
+    <string name="title_activity_view_companies">ViewCompanies</string>
+    <string name="title_activity_view_selected_students">ViewSelectedStudents</string>
+</resources>

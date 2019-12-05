@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddsStudent">
+
+    <TextView
+        android:id="@+id/textAdd"
+        android:layout_width="345dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="188dp"
+        android:text="Admin Adds Student"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/studentName"
+        android:layout_width="351dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="115dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/studentId"
+        android:layout_width="356dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="188dp"
+        android:ems="10"
+        android:hint="Enter Id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/studentBranch"
+        android:layout_width="361dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="Enter Branch"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/studentPercentage"
+        android:layout_width="374dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="344dp"
+        android:ems="10"
+        android:hint="Enter Percentage"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddStudent"
+        android:layout_width="184dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="420dp"
+        android:text="Add Student"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TPOWork">
+
+    <TextView
+        android:id="@+id/tpoWorkPage"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:layout_marginEnd="8dp"
+        android:text="TPO Work"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/addCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Company"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/addNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Notifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/addPapers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Previous Year Papers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/showSelectedStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Selected Students"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="138dp" />
+</LinearLayout>
